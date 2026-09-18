@@ -1,0 +1,49 @@
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:1174: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+
+========================================
+PLAYER V2.2 - ROSTER-AWARE PERSISTENT IDENTITY
+========================================
+
+Video:
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/Videos/1p/5.mp4
+
+Calibration:
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/calibration/profiles/1p_main_camera.json
+
+Pose model:
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/third_party/ShuttleVision-main/ShuttleVision-main/yolov8m-pose.pt
+
+Resolution: 1804 x 1080
+FPS: 30.00
+Frames: 340
+
+Match format: singles
+
+Logical IDs:
+P1 = far court
+P3 = near court
+
+本版不處理剪接/畫面閃入。
+
+Processing: 30/340 (8.8%)
+Processing: 60/340 (17.6%)
+Processing: 90/340 (26.5%)
+Processing: 120/340 (35.3%)
+Processing: 150/340 (44.1%)
+Processing: 180/340 (52.9%)
+Processing: 210/340 (61.8%)
+Processing: 240/340 (70.6%)
+Processing: 270/340 (79.4%)
+Processing: 300/340 (88.2%)
+Processing: 330/340 (97.1%)
+
+========================================
+PLAYER V2.1 COMPLETE
+========================================
+
+Video:
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/outputs/1p_5_identity.mp4
+
+CSV:
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/outputs/1p_5_identity_positions.csv

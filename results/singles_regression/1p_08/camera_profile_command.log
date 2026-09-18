@@ -1,0 +1,8 @@
+
+Status: PASS
+Reason: shared calibration aligns with visible court-line evidence
+Lines: vertical=5/5 horizontal=6/6
+Median line offset: 0.8924278340444403 px
+Max line median offset: 3.5274597830822785 px
+Resolution match: True
+Debug image: /E/Management_Undergraduate_Account/b11333030/badminton-tracker/results/singles_regression/1p_08/camera_profile_debug.jpg

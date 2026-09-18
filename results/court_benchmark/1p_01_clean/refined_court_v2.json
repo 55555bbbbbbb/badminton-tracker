@@ -1,0 +1,77 @@
+{
+    "video": "test.mp4",
+    "method": "court_ai+stretch640+multiframe+birdseye_line_sampling+robust_line_fitting",
+    "source_calibration": "refined_court.json",
+    "calibration_start_sec": 1.0,
+    "calibration_end_sec": 9.0,
+    "vertical_lines_fitted": [
+        "left_doubles",
+        "left_singles",
+        "center",
+        "right_singles",
+        "right_doubles"
+    ],
+    "horizontal_lines_fitted": [
+        "far_baseline",
+        "far_short_service",
+        "near_short_service",
+        "near_long_service",
+        "near_baseline"
+    ],
+    "intersection_count": 25,
+    "intersection_inliers": 20,
+    "median_all_error_px": 1.1482740640640259,
+    "median_inlier_error_px": 1.0352630615234375,
+    "max_inlier_error_px": 3.16916823387146,
+    "homography_image_to_court": [
+        [
+            -0.07789317299158247,
+            -0.0496731786608093,
+            73.70779020041998
+        ],
+        [
+            0.0017221088097737391,
+            -0.4364320463429678,
+            235.39808541016865
+        ],
+        [
+            2.5678594969955692e-05,
+            -0.01609273814925803,
+            1.0
+        ]
+    ],
+    "homography_court_to_image": [
+        [
+            98.34820351962223,
+            -33.34701672544823,
+            600.7951396988637
+        ],
+        [
+            0.1268340583345369,
+            -2.3410925812016408,
+            541.740053220826
+        ],
+        [
+            -0.0004843363950177301,
+            -0.036818285356499454,
+            1.0
+        ]
+    ],
+    "homography_birdeye_refinement": [
+        [
+            1.0401781438238482,
+            0.009918421688788417,
+            -10.830173708004944
+        ],
+        [
+            0.009606730832394376,
+            1.0770071755545685,
+            -49.20312916467072
+        ],
+        [
+            1.856138094780297e-05,
+            2.6858794064346485e-05,
+            1.0
+        ]
+    ]
+}

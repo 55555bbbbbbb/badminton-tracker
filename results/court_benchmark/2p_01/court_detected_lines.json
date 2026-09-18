@@ -1,0 +1,76 @@
+{
+    "pixels_per_meter": 120,
+    "padding": 40,
+    "output_width": 812,
+    "output_height": 1688,
+    "vertical_lines": {
+        "left_doubles": {
+            "court_m": 0.0,
+            "expected_px": 40.0,
+            "detected_px": 77.51463317871094,
+            "edge_hit": false
+        },
+        "left_singles": {
+            "court_m": 0.46,
+            "expected_px": 95.0,
+            "detected_px": 77.51463317871094,
+            "edge_hit": false
+        },
+        "center": {
+            "court_m": 3.05,
+            "expected_px": 406.0,
+            "detected_px": 403.25978088378906,
+            "edge_hit": false
+        },
+        "right_singles": {
+            "court_m": 5.64,
+            "expected_px": 717.0,
+            "detected_px": 733.0005416870117,
+            "edge_hit": false
+        },
+        "right_doubles": {
+            "court_m": 6.1,
+            "expected_px": 772.0,
+            "detected_px": 733.455961227417,
+            "edge_hit": false
+        }
+    },
+    "horizontal_lines": {
+        "far_baseline": {
+            "court_m": 0.0,
+            "expected_px": 40.0,
+            "detected_px": 66.52526092529297,
+            "edge_hit": false
+        },
+        "far_long_service": {
+            "court_m": 0.76,
+            "expected_px": 131.0,
+            "detected_px": 174.04400634765625,
+            "edge_hit": true
+        },
+        "far_short_service": {
+            "court_m": 4.72,
+            "expected_px": 606.0,
+            "detected_px": 575.9861907958984,
+            "edge_hit": false
+        },
+        "near_short_service": {
+            "court_m": 8.68,
+            "expected_px": 1082.0,
+            "detected_px": 1037.9655428528786,
+            "edge_hit": true
+        },
+        "near_long_service": {
+            "court_m": 12.64,
+            "expected_px": 1557.0,
+            "detected_px": 1539.483009338379,
+            "edge_hit": false
+        },
+        "near_baseline": {
+            "court_m": 13.4,
+            "expected_px": 1648.0,
+            "detected_px": 1645.519588470459,
+            "edge_hit": false
+        }
+    }
+}

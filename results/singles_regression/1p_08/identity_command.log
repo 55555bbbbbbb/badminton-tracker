@@ -1,0 +1,65 @@
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:1174: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+
+========================================
+PLAYER V2.2 - ROSTER-AWARE PERSISTENT IDENTITY
+========================================
+
+Video:
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/Videos/1p/8.mp4
+
+Calibration:
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/calibration/profiles/1p_main_camera.json
+
+Pose model:
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/third_party/ShuttleVision-main/ShuttleVision-main/yolov8m-pose.pt
+
+Resolution: 1804 x 1080
+FPS: 30.00
+Frames: 818
+
+Match format: singles
+
+Logical IDs:
+P1 = far court
+P3 = near court
+
+本版不處理剪接/畫面閃入。
+
+Processing: 30/818 (3.7%)
+Processing: 60/818 (7.3%)
+Processing: 90/818 (11.0%)
+Processing: 120/818 (14.7%)
+Processing: 150/818 (18.3%)
+Processing: 180/818 (22.0%)
+Processing: 210/818 (25.7%)
+Processing: 240/818 (29.3%)
+Processing: 270/818 (33.0%)
+Processing: 300/818 (36.7%)
+Processing: 330/818 (40.3%)
+Processing: 360/818 (44.0%)
+Processing: 390/818 (47.7%)
+Processing: 420/818 (51.3%)
+Processing: 450/818 (55.0%)
+Processing: 480/818 (58.7%)
+Processing: 510/818 (62.3%)
+Processing: 540/818 (66.0%)
+Processing: 570/818 (69.7%)
+Processing: 600/818 (73.3%)
+Processing: 630/818 (77.0%)
+Processing: 660/818 (80.7%)
+Processing: 690/818 (84.4%)
+Processing: 720/818 (88.0%)
+Processing: 750/818 (91.7%)
+Processing: 780/818 (95.4%)
+Processing: 810/818 (99.0%)
+
+========================================
+PLAYER V2.1 COMPLETE
+========================================
+
+Video:
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/outputs/1p_8_identity.mp4
+
+CSV:
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/outputs/1p_8_identity_positions.csv

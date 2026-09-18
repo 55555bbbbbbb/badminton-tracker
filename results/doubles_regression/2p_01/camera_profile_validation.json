@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "reason": "shared calibration aligns with visible court-line evidence",
+  "vertical_lines_with_evidence": 5,
+  "horizontal_lines_with_evidence": 6,
+  "supported_line_count": 11,
+  "median_line_offset_px": 0.9312613910669825,
+  "max_line_median_offset_px": 3.793229081922618,
+  "video": "/E/Management_Undergraduate_Account/b11333030/badminton-tracker/Videos/2p/1.mp4",
+  "video_metadata": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30.0,
+    "frame_count": 468,
+    "duration_sec": 15.6
+  },
+  "resolution_match": true,
+  "sampling": {
+    "start_sec": 1.0,
+    "end_sec": 9.0,
+    "frames_used": 31
+  },
+  "vertical_lines": {
+    "left_doubles": {
+      "samples": 53,
+      "median_offset_px": 0.010943936238732022,
+      "median_abs_offset_px": 0.4779698440270792,
+      "max_abs_offset_px": 1.4922774529711589,
+      "has_evidence": true
+    },
+    "left_singles": {
+      "samples": 53,
+      "median_offset_px": 0.801745970950563,
+      "median_abs_offset_px": 0.801745970950563,
+      "max_abs_offset_px": 1.2934566118949107,
+      "has_evidence": true
+    },
+    "center": {
+      "samples": 45,
+      "median_offset_px": 0.0015710409192593033,
+      "median_abs_offset_px": 0.009172960129490093,
+      "max_abs_offset_px": 21.972518197179625,
+      "has_evidence": true
+    },
+    "right_singles": {
+      "samples": 53,
+      "median_offset_px": -0.8068069478971438,
+      "median_abs_offset_px": 0.8068069478971438,
+      "max_abs_offset_px": 1.3050691521737008,
+      "has_evidence": true
+    },
+    "right_doubles": {
+      "samples": 53,
+      "median_offset_px": -0.01092747243433223,
+      "median_abs_offset_px": 0.49080693569032974,
+      "max_abs_offset_px": 1.5135037952611583,
+      "has_evidence": true
+    }
+  },
+  "horizontal_lines": {
+    "far_baseline": {
+      "samples": 16,
+      "median_offset_px": 3.5033981457821888,
+      "median_abs_offset_px": 3.526211156423045,
+      "max_abs_offset_px": 35.529134712667464,
+      "has_evidence": true
+    },
+    "far_long_service": {
+      "samples": 24,
+      "median_offset_px": 3.793229081922618,
+      "median_abs_offset_px": 3.793229081922618,
+      "max_abs_offset_px": 5.3147733203315966,
+      "has_evidence": true
+    },
+    "far_short_service": {
+      "samples": 24,
+      "median_offset_px": -0.6733880139888697,
+      "median_abs_offset_px": 0.9312613910669825,
+      "max_abs_offset_px": 3.8348862641812502,
+      "has_evidence": true
+    },
+    "near_short_service": {
+      "samples": 24,
+      "median_offset_px": 1.9018665814412543,
+      "median_abs_offset_px": 1.9018665814412543,
+      "max_abs_offset_px": 5.8815894217248115,
+      "has_evidence": true
+    },
+    "near_long_service": {
+      "samples": 24,
+      "median_offset_px": -1.0479825091153998,
+      "median_abs_offset_px": 2.4825064602448492,
+      "max_abs_offset_px": 5.201487071052952,
+      "has_evidence": true
+    },
+    "near_baseline": {
+      "samples": 21,
+      "median_offset_px": 1.0218849358536772,
+      "median_abs_offset_px": 2.0324053325998648,
+      "max_abs_offset_px": 35.50310305134121,
+      "has_evidence": true
+    }
+  },
+  "debug_image": "/E/Management_Undergraduate_Account/b11333030/badminton-tracker/results/doubles_regression/2p_01/camera_profile_debug.jpg",
+  "policy": {
+    "search_radius_px": 40,
+    "min_line_samples": 8,
+    "pass_max_median_offset_px": 10.0,
+    "warn_max_median_offset_px": 20.0,
+    "pass_min_vertical_lines": 5,
+    "pass_min_horizontal_lines": 4,
+    "warn_min_vertical_lines": 4,
+    "warn_min_horizontal_lines": 3
+  }
+}

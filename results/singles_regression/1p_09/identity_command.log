@@ -1,0 +1,80 @@
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:1174: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+
+========================================
+PLAYER V2.2 - ROSTER-AWARE PERSISTENT IDENTITY
+========================================
+
+Video:
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/Videos/1p/9.mp4
+
+Calibration:
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/calibration/profiles/1p_main_camera.json
+
+Pose model:
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/third_party/ShuttleVision-main/ShuttleVision-main/yolov8m-pose.pt
+
+Resolution: 1804 x 1080
+FPS: 30.00
+Frames: 1287
+
+Match format: singles
+
+Logical IDs:
+P1 = far court
+P3 = near court
+
+本版不處理剪接/畫面閃入。
+
+Processing: 30/1287 (2.3%)
+Processing: 60/1287 (4.7%)
+Processing: 90/1287 (7.0%)
+Processing: 120/1287 (9.3%)
+Processing: 150/1287 (11.7%)
+Processing: 180/1287 (14.0%)
+Processing: 210/1287 (16.3%)
+Processing: 240/1287 (18.6%)
+Processing: 270/1287 (21.0%)
+Processing: 300/1287 (23.3%)
+Processing: 330/1287 (25.6%)
+Processing: 360/1287 (28.0%)
+Processing: 390/1287 (30.3%)
+Processing: 420/1287 (32.6%)
+Processing: 450/1287 (35.0%)
+Processing: 480/1287 (37.3%)
+Processing: 510/1287 (39.6%)
+Processing: 540/1287 (42.0%)
+Processing: 570/1287 (44.3%)
+Processing: 600/1287 (46.6%)
+Processing: 630/1287 (49.0%)
+Processing: 660/1287 (51.3%)
+Processing: 690/1287 (53.6%)
+Processing: 720/1287 (55.9%)
+Processing: 750/1287 (58.3%)
+Processing: 780/1287 (60.6%)
+Processing: 810/1287 (62.9%)
+Processing: 840/1287 (65.3%)
+Processing: 870/1287 (67.6%)
+Processing: 900/1287 (69.9%)
+Processing: 930/1287 (72.3%)
+Processing: 960/1287 (74.6%)
+Processing: 990/1287 (76.9%)
+Processing: 1020/1287 (79.3%)
+Processing: 1050/1287 (81.6%)
+Processing: 1080/1287 (83.9%)
+Processing: 1110/1287 (86.2%)
+Processing: 1140/1287 (88.6%)
+Processing: 1170/1287 (90.9%)
+Processing: 1200/1287 (93.2%)
+Processing: 1230/1287 (95.6%)
+Processing: 1260/1287 (97.9%)
+
+========================================
+PLAYER V2.1 COMPLETE
+========================================
+
+Video:
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/outputs/1p_9_identity.mp4
+
+CSV:
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/outputs/1p_9_identity_positions.csv

@@ -1,0 +1,15 @@
+Video: /E/Management_Undergraduate_Account/b11333030/badminton-tracker/Videos/2p/1.mp4
+Status: GEOMETRY_FAIL
+Reason: 最終 line-fitting 幾何數據未達門檻
+
+Vertical lines: 5
+Horizontal lines: 5
+Intersections: 25
+Inliers: 20
+Median ALL: 1.174442172050476 px
+Median INLIER: 1.1122151613235474 px
+Max INLIER: 2.4436330795288086 px
+
+IMPORTANT:
+Final visual judgment must use:
+refined_v2_original.jpg

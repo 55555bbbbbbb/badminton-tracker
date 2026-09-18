@@ -1,0 +1,8 @@
+
+Status: FAIL
+Reason: insufficient court-line evidence for this calibration; do not blindly reuse the camera profile on this clip
+Lines: vertical=3/5 horizontal=5/6
+Median line offset: 12.671838490412036 px
+Max line median offset: 17.73218974355231 px
+Resolution match: True
+Debug image: /E/Management_Undergraduate_Account/b11333030/badminton-tracker/results/doubles_regression/2p_07/camera_profile_debug.jpg

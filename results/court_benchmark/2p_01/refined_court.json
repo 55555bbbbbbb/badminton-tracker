@@ -1,0 +1,63 @@
+{
+    "video": "test.mp4",
+    "method": "court_ai_multiframe_stretch_640+birdseye_cv_line_refinement",
+    "pixels_per_meter": 120.0,
+    "padding": 40.0,
+    "refinement_intersections": 20,
+    "refinement_inliers": 9,
+    "refinement_median_error_px": 17.807453155517578,
+    "refinement_median_inlier_error_px": 1.4102540016174316,
+    "homography_image_to_court": [
+        [
+            -0.1699266251067412,
+            -0.10879092949959614,
+            169.6469150842891
+        ],
+        [
+            0.0053144695979623355,
+            -1.006278317799563,
+            563.1075288305148
+        ],
+        [
+            0.0004355118836971159,
+            -0.03510911349309127,
+            1.0
+        ]
+    ],
+    "homography_court_to_image": [
+        [
+            109.36497035996084,
+            -34.08116697437834,
+            637.931874750265
+        ],
+        [
+            1.3983986202238816,
+            -1.421038268294338,
+            562.9633356537101
+        ],
+        [
+            0.0014667916140767019,
+            -0.035048640611964305,
+            1.0
+        ]
+    ],
+    "homography_refine_birdeye": [
+        [
+            1.122082456842526,
+            0.04567244746918702,
+            -46.59718603820076
+        ],
+        [
+            0.0026501489338722336,
+            1.2154773308629654,
+            -41.94394168247945
+        ],
+        [
+            1.9821226039185873e-06,
+            0.00011392766573522888,
+            1.0
+        ]
+    ],
+    "source_coarse_calibration": "auto_court.json",
+    "source_line_detection": "court_detected_lines.json"
+}

@@ -1,0 +1,264 @@
+
+============================================================
+STAGE 1: AI coarse court
+============================================================
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:1174: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+使用模型：
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/third_party/ShuttleVision-main/ShuttleVision-main/runs/pose/v1-1/weights/best.pt
+
+FPS = 30.00
+影片長度 = 15.60 秒
+取樣時間： [1, 2, 3, 4, 5, 6, 7, 8]
+1s Court confidence=0.981
+2s Court confidence=0.981
+3s Court confidence=0.981
+4s Court confidence=0.977
+5s Court confidence=0.977
+6s Court confidence=0.979
+7s Court confidence=0.981
+8s Court confidence=0.981
+
+========== MULTI-FRAME KEYPOINTS ==========
+K00: (606.2, 560.0) samples=8 conf=0.736 jitter=3.83px
+K01: (648.5, 564.3) samples=8 conf=0.775 jitter=4.07px
+K02: (972.7, 561.2) samples=8 conf=0.816 jitter=2.86px
+K03: (1280.4, 554.0) samples=8 conf=0.697 jitter=2.30px
+K04: (1329.3, 559.4) samples=8 conf=0.651 jitter=2.58px
+K05: (592.3, 584.2) samples=8 conf=0.771 jitter=3.97px
+K06: (1317.2, 569.7) samples=8 conf=0.672 jitter=2.26px
+K07: (548.4, 675.8) samples=8 conf=0.759 jitter=2.75px
+K08: (964.6, 676.3) samples=8 conf=0.786 jitter=2.13px
+K09: (1366.1, 673.6) samples=8 conf=0.641 jitter=1.64px
+K10: (517.7, 733.5) samples=8 conf=0.755 jitter=3.54px
+K11: (1411.2, 734.0) samples=8 conf=0.682 jitter=2.43px
+K12: (493.7, 807.9) samples=8 conf=0.735 jitter=2.96px
+K13: (962.9, 806.6) samples=8 conf=0.817 jitter=1.03px
+K14: (1445.5, 813.4) samples=8 conf=0.703 jitter=3.27px
+K15: (396.8, 985.1) samples=8 conf=0.607 jitter=3.20px
+K16: (1516.7, 990.0) samples=8 conf=0.605 jitter=2.69px
+K17: (385.6, 1034.9) samples=8 conf=0.593 jitter=4.13px
+K18: (467.8, 1027.8) samples=8 conf=0.635 jitter=2.95px
+K19: (969.7, 1027.0) samples=8 conf=0.711 jitter=1.49px
+K20: (1455.0, 1024.6) samples=8 conf=0.502 jitter=1.22px
+K21: (1539.8, 1026.7) samples=8 conf=0.513 jitter=1.68px
+
+========== HOMOGRAPHY QUALITY ==========
+K00: INLIER  error=2.37px
+K01: OUTLIER error=13.58px
+K02: INLIER  error=3.43px
+K03: OUTLIER error=8.92px
+K04: INLIER  error=2.54px
+K05: OUTLIER error=10.76px
+K06: OUTLIER error=22.16px
+K07: INLIER  error=0.50px
+K08: INLIER  error=4.12px
+K09: OUTLIER error=18.40px
+K12: OUTLIER error=9.37px
+K13: INLIER  error=4.79px
+K14: INLIER  error=4.28px
+K15: INLIER  error=1.60px
+K16: INLIER  error=7.93px
+K17: OUTLIER error=10.66px
+K18: INLIER  error=0.81px
+K19: INLIER  error=4.78px
+K20: INLIER  error=1.40px
+K21: INLIER  error=2.01px
+
+RANSAC Inliers: 13 / 20
+Median reprojection error: 4.53px
+Median ALL error: 4.53px
+Median INLIER error: 2.54px
+Max INLIER error: 7.93px
+
+輸出：
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/outputs/court_multiframe.jpg
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/calibration/auto_court.json
+
+============================================================
+STAGE 2: CV bird-eye line detection
+============================================================
+
+====================================
+建立 Bird-eye Median Background
+====================================
+FPS：30.00
+影片長度：15.60 秒
+
+使用 Frame 數量： 21
+
+========== VERTICAL LINES ==========
+left_doubles         expected=  40.00 detected=  77.51 offset= +37.51px width=12px score=  91.5 OK
+left_singles         expected=  95.00 detected=  77.51 offset= -17.49px width=12px score=  91.5 OK
+center               expected= 406.00 detected= 403.26 offset=  -2.74px width= 2px score= 230.9 OK
+right_singles        expected= 717.00 detected= 733.00 offset= +16.00px width=15px score=  84.0 OK
+right_doubles        expected= 772.00 detected= 733.46 offset= -38.54px width=14px score=  84.0 OK
+
+========== HORIZONTAL LINES ==========
+far_baseline         expected=  40.00 detected=  66.53 offset= +26.53px width=14px score=  85.6 OK
+far_long_service     expected= 131.00 detected= 174.04 offset= +43.04px width= 5px score=  96.3 EDGE_HIT
+far_short_service    expected= 606.00 detected= 575.99 offset= -30.01px width= 7px score= 132.2 OK
+near_short_service   expected=1082.00 detected=1037.97 offset= -44.03px width= 3px score= 106.5 EDGE_HIT
+near_long_service    expected=1557.00 detected=1539.48 offset= -17.52px width= 6px score= 155.7 OK
+near_baseline        expected=1648.00 detected=1645.52 offset=  -2.48px width= 6px score= 165.9 OK
+
+====================================
+完成
+====================================
+
+Median Background：
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/outputs/court_median_background.jpg
+
+Line Detection：
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/outputs/court_line_detection.jpg
+
+顏色：
+紅線 = AI / Homography 理論位置
+青線 = CV 白線中心
+紫線 = 搜尋撞邊界，不可信
+
+Detected lines JSON：
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/calibration/court_detected_lines.json
+
+============================================================
+STAGE 3: Initial CV homography refinement
+============================================================
+
+====================================
+CV REFINEMENT
+====================================
+Intersection pairs： 20
+
+========== REFINEMENT RANSAC ==========
+INLIER    3.30px left_doubles x far_baseline
+OUTLIER  25.44px left_doubles x far_short_service
+OUTLIER  54.17px left_doubles x near_long_service
+OUTLIER  57.29px left_doubles x near_baseline
+OUTLIER  51.93px left_singles x far_baseline
+OUTLIER  34.48px left_singles x far_short_service
+INLIER    1.11px left_singles x near_long_service
+INLIER    2.48px left_singles x near_baseline
+INLIER    0.58px center x far_baseline
+OUTLIER  12.19px center x far_short_service
+INLIER    1.41px center x near_long_service
+INLIER    1.42px center x near_baseline
+OUTLIER  54.96px right_singles x far_baseline
+OUTLIER  36.99px right_singles x far_short_service
+INLIER    2.26px right_singles x near_long_service
+INLIER    1.34px right_singles x near_baseline
+INLIER    0.68px right_doubles x far_baseline
+OUTLIER  23.43px right_doubles x far_short_service
+OUTLIER  52.53px right_doubles x near_long_service
+OUTLIER  55.76px right_doubles x near_baseline
+
+Inliers: 9 / 20
+Median ALL error: 17.807px
+Median INLIER error: 1.410px
+Max INLIER error: 3.303px
+
+====================================
+REFINEMENT COMPLETE
+====================================
+
+Refined Calibration：
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/calibration/refined_court.json
+
+Refined Bird-eye：
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/outputs/refined_court_birdeye.jpg
+
+Original Overlay：
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/outputs/refined_court_original.jpg
+
+按任意鍵關閉
+
+============================================================
+STAGE 4: Final robust line fitting
+============================================================
+
+使用目前 Calibration：
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/calibration/refined_court.json
+
+====================================
+建立 Local Bird-eye Background
+====================================
+Time range: 1.00s → 9.00s
+使用 Frames： 31
+
+====================================
+VERTICAL LINE FITTING
+====================================
+left_doubles         samples= 52 inliers= 52 median=0.22px max=0.98px
+left_singles         samples= 52 inliers= 52 median=0.15px max=1.41px
+center               samples= 37 inliers= 37 median=0.16px max=0.58px
+right_singles        samples= 53 inliers= 52 median=0.16px max=1.19px
+right_doubles        samples= 53 inliers= 52 median=0.25px max=0.86px
+
+====================================
+HORIZONTAL LINE FITTING
+====================================
+far_baseline         samples= 11 inliers=  8 median=0.38px max=1.10px
+far_long_service     FAILED samples=4
+far_short_service    samples= 24 inliers= 23 median=0.79px max=1.82px
+near_short_service   samples= 24 inliers= 24 median=1.51px max=3.77px
+near_long_service    samples= 24 inliers= 23 median=2.12px max=5.36px
+near_baseline        samples= 19 inliers= 19 median=2.62px max=6.93px
+
+Vertical fitted: 5 / 5
+Horizontal fitted: 5 / 6
+
+====================================
+REAL LINE INTERSECTIONS
+====================================
+Intersections: 25
+
+====================================
+LINE-FIT HOMOGRAPHY QUALITY
+====================================
+OUTLIER  41.95px left_doubles x far_baseline
+INLIER    0.73px left_doubles x far_short_service
+INLIER    1.34px left_doubles x near_short_service
+INLIER    1.53px left_doubles x near_long_service
+INLIER    0.92px left_doubles x near_baseline
+OUTLIER  42.08px left_singles x far_baseline
+INLIER    1.10px left_singles x far_short_service
+INLIER    1.50px left_singles x near_short_service
+INLIER    1.34px left_singles x near_long_service
+INLIER    0.50px left_singles x near_baseline
+OUTLIER  42.69px center x far_baseline
+INLIER    0.39px center x far_short_service
+INLIER    1.87px center x near_short_service
+INLIER    1.17px center x near_long_service
+INLIER    0.66px center x near_baseline
+OUTLIER  43.33px right_singles x far_baseline
+INLIER    0.97px right_singles x far_short_service
+INLIER    2.44px right_singles x near_short_service
+INLIER    1.07px right_singles x near_long_service
+INLIER    0.87px right_singles x near_baseline
+OUTLIER  43.43px right_doubles x far_baseline
+INLIER    0.23px right_doubles x far_short_service
+INLIER    2.44px right_doubles x near_short_service
+INLIER    1.17px right_doubles x near_long_service
+INLIER    1.12px right_doubles x near_baseline
+
+Inliers: 20 / 25
+Median ALL: 1.174px
+Median INLIER: 1.112px
+Max INLIER: 2.444px
+
+====================================
+COURT V3C COMPLETE
+====================================
+
+Final calibration：
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/calibration/refined_court_v2.json
+
+Line fitting debug：
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/outputs/linefit_debug.jpg
+
+Final Bird-eye：
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/outputs/refined_v2_birdeye.jpg
+
+Final Original Overlay：
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/outputs/refined_v2_original.jpg
+
+按任意鍵關閉

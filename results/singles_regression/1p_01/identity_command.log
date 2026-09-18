@@ -1,0 +1,107 @@
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:1174: UserWarning: Can't initialize NVML
+  raw_cnt = _raw_device_count_nvml()
+
+========================================
+PLAYER V2.2 - ROSTER-AWARE PERSISTENT IDENTITY
+========================================
+
+Video:
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/Videos/1p/1.mp4
+
+Calibration:
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/calibration/profiles/1p_main_camera.json
+
+Pose model:
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/third_party/ShuttleVision-main/ShuttleVision-main/yolov8m-pose.pt
+
+Resolution: 1804 x 1080
+FPS: 30.00
+Frames: 2094
+
+Match format: singles
+
+Logical IDs:
+P1 = far court
+P3 = near court
+
+本版不處理剪接/畫面閃入。
+
+Processing: 30/2094 (1.4%)
+Processing: 60/2094 (2.9%)
+Processing: 90/2094 (4.3%)
+Processing: 120/2094 (5.7%)
+Processing: 150/2094 (7.2%)
+Processing: 180/2094 (8.6%)
+Processing: 210/2094 (10.0%)
+Processing: 240/2094 (11.5%)
+Processing: 270/2094 (12.9%)
+Processing: 300/2094 (14.3%)
+Processing: 330/2094 (15.8%)
+Processing: 360/2094 (17.2%)
+Processing: 390/2094 (18.6%)
+Processing: 420/2094 (20.1%)
+Processing: 450/2094 (21.5%)
+Processing: 480/2094 (22.9%)
+Processing: 510/2094 (24.4%)
+Processing: 540/2094 (25.8%)
+Processing: 570/2094 (27.2%)
+Processing: 600/2094 (28.7%)
+Processing: 630/2094 (30.1%)
+Processing: 660/2094 (31.5%)
+Processing: 690/2094 (33.0%)
+Processing: 720/2094 (34.4%)
+Processing: 750/2094 (35.8%)
+Processing: 780/2094 (37.2%)
+Processing: 810/2094 (38.7%)
+Processing: 840/2094 (40.1%)
+Processing: 870/2094 (41.5%)
+Processing: 900/2094 (43.0%)
+Processing: 930/2094 (44.4%)
+Processing: 960/2094 (45.8%)
+Processing: 990/2094 (47.3%)
+Processing: 1020/2094 (48.7%)
+Processing: 1050/2094 (50.1%)
+Processing: 1080/2094 (51.6%)
+Processing: 1110/2094 (53.0%)
+Processing: 1140/2094 (54.4%)
+Processing: 1170/2094 (55.9%)
+Processing: 1200/2094 (57.3%)
+Processing: 1230/2094 (58.7%)
+Processing: 1260/2094 (60.2%)
+Processing: 1290/2094 (61.6%)
+Processing: 1320/2094 (63.0%)
+Processing: 1350/2094 (64.5%)
+Processing: 1380/2094 (65.9%)
+Processing: 1410/2094 (67.3%)
+Processing: 1440/2094 (68.8%)
+Processing: 1470/2094 (70.2%)
+Processing: 1500/2094 (71.6%)
+Processing: 1530/2094 (73.1%)
+Processing: 1560/2094 (74.5%)
+Processing: 1590/2094 (75.9%)
+Processing: 1620/2094 (77.4%)
+Processing: 1650/2094 (78.8%)
+Processing: 1680/2094 (80.2%)
+Processing: 1710/2094 (81.7%)
+Processing: 1740/2094 (83.1%)
+Processing: 1770/2094 (84.5%)
+Processing: 1800/2094 (86.0%)
+Processing: 1830/2094 (87.4%)
+Processing: 1860/2094 (88.8%)
+Processing: 1890/2094 (90.3%)
+Processing: 1920/2094 (91.7%)
+Processing: 1950/2094 (93.1%)
+Processing: 1980/2094 (94.6%)
+Processing: 2010/2094 (96.0%)
+Processing: 2040/2094 (97.4%)
+Processing: 2070/2094 (98.9%)
+
+========================================
+PLAYER V2.1 COMPLETE
+========================================
+
+Video:
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/outputs/1p_1_identity.mp4
+
+CSV:
+/E/Management_Undergraduate_Account/b11333030/badminton-tracker/outputs/1p_1_identity_positions.csv

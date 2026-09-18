@@ -1,0 +1,14 @@
+{
+    "status": "GEOMETRY_FAIL",
+    "reason": "最終 line-fitting 幾何數據未達門檻",
+    "vertical_lines": 5,
+    "horizontal_lines": 5,
+    "intersections": 25,
+    "inliers": 20,
+    "median_all_px": 1.174442172050476,
+    "median_inlier_px": 1.1122151613235474,
+    "max_inlier_px": 2.4436330795288086,
+    "video": "/E/Management_Undergraduate_Account/b11333030/badminton-tracker/Videos/2p/1.mp4",
+    "run_name": "2p_01",
+    "elapsed_seconds": 15.029828310012817
+}

@@ -1,0 +1,190 @@
+{
+  "clip": "12.mp4",
+  "run_name": "2p_12",
+  "video": "/E/Management_Undergraduate_Account/b11333030/badminton-tracker/Videos/2p/12.mp4",
+  "court_status": "PROFILE_PASS",
+  "calibration": "/E/Management_Undergraduate_Account/b11333030/badminton-tracker/calibration/profiles/2p_main_camera.json",
+  "camera_profile_validation": {
+    "status": "PASS",
+    "reason": "shared calibration aligns with visible court-line evidence",
+    "vertical_lines_with_evidence": 5,
+    "horizontal_lines_with_evidence": 6,
+    "supported_line_count": 11,
+    "median_line_offset_px": 0.9991291545593413,
+    "max_line_median_offset_px": 3.5126622038146174,
+    "video": "/E/Management_Undergraduate_Account/b11333030/badminton-tracker/Videos/2p/12.mp4",
+    "video_metadata": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 30.0,
+      "frame_count": 346,
+      "duration_sec": 11.533333333333333
+    },
+    "resolution_match": true,
+    "sampling": {
+      "start_sec": 1.0,
+      "end_sec": 9.0,
+      "frames_used": 31
+    },
+    "vertical_lines": {
+      "left_doubles": {
+        "samples": 53,
+        "median_offset_px": 0.010969369523735395,
+        "median_abs_offset_px": 0.4822811280905128,
+        "max_abs_offset_px": 1.5017782630676493,
+        "has_evidence": true
+      },
+      "left_singles": {
+        "samples": 53,
+        "median_offset_px": 0.8046131599932096,
+        "median_abs_offset_px": 0.8046131599932096,
+        "max_abs_offset_px": 1.2966542107809573,
+        "has_evidence": true
+      },
+      "center": {
+        "samples": 42,
+        "median_offset_px": -0.001365876140198452,
+        "median_abs_offset_px": 0.00671908707246871,
+        "max_abs_offset_px": 25.02296664915832,
+        "has_evidence": true
+      },
+      "right_singles": {
+        "samples": 53,
+        "median_offset_px": -0.8079345106633582,
+        "median_abs_offset_px": 0.8079345106633582,
+        "max_abs_offset_px": 1.3057630314315247,
+        "has_evidence": true
+      },
+      "right_doubles": {
+        "samples": 53,
+        "median_offset_px": -0.014429540775836358,
+        "median_abs_offset_px": 0.4943168870554473,
+        "max_abs_offset_px": 1.5072709754754214,
+        "has_evidence": true
+      }
+    },
+    "horizontal_lines": {
+      "far_baseline": {
+        "samples": 16,
+        "median_offset_px": 3.2257677202680775,
+        "median_abs_offset_px": 3.5126622038146174,
+        "max_abs_offset_px": 35.53230480024321,
+        "has_evidence": true
+      },
+      "far_long_service": {
+        "samples": 24,
+        "median_offset_px": 3.355803500377732,
+        "median_abs_offset_px": 3.355803500377732,
+        "max_abs_offset_px": 4.853889107173586,
+        "has_evidence": true
+      },
+      "far_short_service": {
+        "samples": 24,
+        "median_offset_px": -0.9305679855793869,
+        "median_abs_offset_px": 0.9991291545593413,
+        "max_abs_offset_px": 2.4010479163395075,
+        "has_evidence": true
+      },
+      "near_short_service": {
+        "samples": 24,
+        "median_offset_px": 1.6649988263637852,
+        "median_abs_offset_px": 1.6649988263637852,
+        "max_abs_offset_px": 5.40079533823382,
+        "has_evidence": true
+      },
+      "near_long_service": {
+        "samples": 24,
+        "median_offset_px": -1.0574778236269822,
+        "median_abs_offset_px": 2.4736799751253784,
+        "max_abs_offset_px": 5.204606162443724,
+        "has_evidence": true
+      },
+      "near_baseline": {
+        "samples": 20,
+        "median_offset_px": 0.762008578177074,
+        "median_abs_offset_px": 2.73390229364702,
+        "max_abs_offset_px": 35.50457882735441,
+        "has_evidence": true
+      }
+    },
+    "debug_image": "/E/Management_Undergraduate_Account/b11333030/badminton-tracker/results/doubles_regression/2p_12/camera_profile_debug.jpg",
+    "policy": {
+      "search_radius_px": 40,
+      "min_line_samples": 8,
+      "pass_max_median_offset_px": 10.0,
+      "warn_max_median_offset_px": 20.0,
+      "pass_min_vertical_lines": 5,
+      "pass_min_horizontal_lines": 4,
+      "warn_min_vertical_lines": 4,
+      "warn_min_horizontal_lines": 3
+    }
+  },
+  "camera_profile_validation_json": "/E/Management_Undergraduate_Account/b11333030/badminton-tracker/results/doubles_regression/2p_12/camera_profile_validation.json",
+  "camera_profile_debug": "/E/Management_Undergraduate_Account/b11333030/badminton-tracker/results/doubles_regression/2p_12/camera_profile_debug.jpg",
+  "identity_status": "PASS",
+  "identity_reason": "Doubles logical roster stayed within P1/P2/P3/P4",
+  "players_seen": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "unexpected_players": [],
+  "missing_expected_players": [],
+  "max_logical_per_frame": 4,
+  "max_detected_logical_per_frame": 4,
+  "predicted_frame_count": 22,
+  "longest_predicted_run_frames": {
+    "2": 8,
+    "1": 4
+  },
+  "long_prediction_runs": {},
+  "max_detection_gap_frames": {
+    "1": 4,
+    "2": 8,
+    "3": 0,
+    "4": 0
+  },
+  "raw_ids_by_player": {
+    "1": [
+      "4"
+    ],
+    "2": [
+      "7",
+      "8"
+    ],
+    "3": [
+      "2"
+    ],
+    "4": [
+      "1"
+    ]
+  },
+  "raw_id_transitions": {
+    "1": 0,
+    "2": 1,
+    "3": 0,
+    "4": 0
+  },
+  "raw_id_transition_frames": {
+    "1": [],
+    "2": [
+      {
+        "frame": 42,
+        "time_sec": 1.4,
+        "from_raw_id": "7",
+        "to_raw_id": "8"
+      }
+    ],
+    "3": [],
+    "4": []
+  },
+  "manual_review_required": true,
+  "review_flags": [
+    "raw ID transitions present (1); inspect transition frames for visual P# continuity"
+  ],
+  "identity_csv": "/E/Management_Undergraduate_Account/b11333030/badminton-tracker/outputs/2p_12_identity_positions.csv",
+  "identity_video": "/E/Management_Undergraduate_Account/b11333030/badminton-tracker/outputs/2p_12_identity.mp4",
+  "identity_video_exists": true,
+  "overall_status": "PASS_AUTO_REVIEW"
+}
